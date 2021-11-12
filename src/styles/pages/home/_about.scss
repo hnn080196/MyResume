@@ -1,0 +1,51 @@
+section.greeting {
+    position: relative;
+    div.greeting--background {
+        overflow: hidden;
+        background-image: linear-gradient(90deg, #03d3e1 0%, #1179ef 82%);
+        svg.greeting--background__svg {
+            fill: $color-backround;
+            width: 1500%;
+            height: 700px;
+            transform: rotate(180deg) scaleX(-1);
+            @media screen and (max-width: 991.98px) {
+                height: 950px;
+            }
+        }
+    }
+    div.greeting--content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        div.greeting--content__text {
+            padding: 8px 16px;
+            h3 {
+                color: $color-white;
+                font-weight: $weight-600;
+                font-size: $size-40;
+            }
+            p {
+                color: $color-white;
+                font-weight: $weight-500;
+                font-size: $size-20;
+                line-height: 35px;
+            }
+            @media screen and (max-width: 991.98px) {
+                h3 {
+                    font-size: $size-30;
+                }
+            }
+        }
+        div.greeting--image {
+            width: 100%;
+            height: 300px;
+            margin: auto;
+            @media screen and (max-width: 991.98px) {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+}

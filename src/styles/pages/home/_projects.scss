@@ -1,0 +1,13 @@
+section.project {
+    div.card {
+        .card-info {
+            .card-title {
+                font-weight: $weight-600;
+            }
+            .card-text {
+                line-height: 22px;
+                font-weight: $weight-500;
+            }
+        }
+    }
+}

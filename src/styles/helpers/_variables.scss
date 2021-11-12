@@ -1,0 +1,55 @@
+$color-white: #ffffff;
+$color-white-light-1: #f6f6f6;
+$color-white-light-2: #eeeeee;
+$color-white-light-3: #f0f0f0;
+$color-white-light-4: #fafafa;
+$color-black: #000000;
+$color-black-light-1: #d7d7d7;
+$color-black-light-2: #c0c0c0;
+$color-black-light-3: #999999;
+$color-black-light-4: #696969;
+$color-black-dark-1: #0000001a;
+$color-black-dark-2: #00000026;
+$color-black-dark-3: #555555;
+$color-brown: #8c110a;
+$color-price: rgb(231, 103, 57);
+$color-rosy-brown: #bc8f8f;
+$color-gray: #d3d3d3;
+$color-organe: #ffa500;
+$color-pink: #ea4c89;
+$color-black-gray: #0000009e;
+$color-grey-opacity: #faf7f7cf;
+$color-homePage: rgb(235, 230, 230);
+$color-primary: #172b4d;
+$color-backround: #e1f5fe;
+
+// Font size
+$size-10: 10px;
+$size-12: 12px;
+$size-13: 13px;
+$size-14: 14px;
+$size-16: 16px;
+$size-18: 18px;
+$size-20: 20px;
+$size-25: 25px;
+$size-30: 30px;
+$size-35: 35px;
+$size-40: 40px;
+
+// Font weight
+$weight-100: 100;
+$weight-200: 200;
+$weight-300: 300;
+$weight-400: 400;
+$weight-500: 500;
+$weight-600: 600;
+$weight-700: 700;
+
+@font-face {
+    font-family: 'agustina';
+    src: url('../../assets/vendor/agustina-font/Agustina-Signature.otf');
+}
+@font-face {
+    font-family: 'quicksand';
+    src: url('../../assets/vendor/quicksand/Quicksand-VariableFont_wght.ttf');
+}
