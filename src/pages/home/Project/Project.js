@@ -101,6 +101,8 @@ const cardData = [
         description: `Features include: Home Page, Booking, Sign In, Sign Up
         , Dashboard Page to manage User, Movie, Cinema System, Theatre, Showtime `,
         bgcolor: '#3490dc',
+        demo: 'https://booking-movie-project-ten.vercel.app/',
+        github: 'https://github.com/hnn080196/booking-movie-project',
     },
     {
         idCard: 'landing',
@@ -108,6 +110,8 @@ const cardData = [
         chipData: landingPage,
         description: `include :Dark mode and responsive suitable for many screen types.`,
         bgcolor: '#B2EBF2',
+        demo: 'https://hnn080196.github.io/BCS_Nhom_de5/',
+        github: 'https://github.com/hnn080196/BCS_Nhom_de5',
     },
     {
         idCard: 'backend',
@@ -115,6 +119,8 @@ const cardData = [
         chipData: backendData,
         description: `CRUD User, Movie, Cinema, Theater, Seat, Showtime, Ticket `,
         bgcolor: '#B39DDB',
+        
+        github: 'https://github.com/hnn080196/nodejs-booking-movie-API',
     },
     {
         idCard: 'chatapp',

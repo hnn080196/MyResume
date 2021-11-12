@@ -22,10 +22,24 @@ function ProjectCard({ cardData }) {
                 </div>
                 <ChipArray chipData={cardData.chipData} />
                 <div>
-                    <a href='#1' className='btn btn-primary mr-3'>
-                        Live Demo
-                    </a>
-                    <a href='#2' className='btn btn-primary'>
+                    {cardData.demo ? (
+                        <a
+                            href={cardData.demo}
+                            target='_blank'
+                            className='btn btn-primary mr-3'
+                        >
+                            Live Demo
+                        </a>
+                    ) : (
+                        <a href='#' className='btn btn-primary mr-3 disabled'>
+                            Live Demo
+                        </a>
+                    )}
+                    <a
+                        href={cardData.github}
+                        target='_blank'
+                        className='btn btn-primary'
+                    >
                         GitHub
                     </a>
                 </div>
