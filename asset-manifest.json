@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MyResume/static/css/main.aaa2001e.chunk.css",
+    "main.js": "/MyResume/static/js/main.5f42794c.chunk.js",
+    "main.js.map": "/MyResume/static/js/main.5f42794c.chunk.js.map",
+    "runtime-main.js": "/MyResume/static/js/runtime-main.a9840775.js",
+    "runtime-main.js.map": "/MyResume/static/js/runtime-main.a9840775.js.map",
+    "static/js/2.edaf04e4.chunk.js": "/MyResume/static/js/2.edaf04e4.chunk.js",
+    "static/js/2.edaf04e4.chunk.js.map": "/MyResume/static/js/2.edaf04e4.chunk.js.map",
+    "static/js/3.6c721038.chunk.js": "/MyResume/static/js/3.6c721038.chunk.js",
+    "static/js/3.6c721038.chunk.js.map": "/MyResume/static/js/3.6c721038.chunk.js.map",
+    "index.html": "/MyResume/index.html",
+    "static/css/main.aaa2001e.chunk.css.map": "/MyResume/static/css/main.aaa2001e.chunk.css.map",
+    "static/js/2.edaf04e4.chunk.js.LICENSE.txt": "/MyResume/static/js/2.edaf04e4.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/MyResume/static/media/Quicksand-VariableFont_wght.92e1d0f3.ttf",
+    "static/media/avatar.51a637c9.jpg": "/MyResume/static/media/avatar.51a637c9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9840775.js",
+    "static/js/2.edaf04e4.chunk.js",
+    "static/css/main.aaa2001e.chunk.css",
+    "static/js/main.5f42794c.chunk.js"
+  ]
+}
