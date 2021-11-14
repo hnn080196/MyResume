@@ -5,7 +5,7 @@ import Title from '../../../components/Title/Title';
 import { Fade } from 'react-reveal';
 const progressInfo = [
     { skill: 'Frontend/ Design', percent: '80' },
-    { skill: 'Backend', percent: '70' },
+    { skill: 'Backend', percent: '50' },
     { skill: 'Programing', percent: '70' },
 ];
 function Proficiency() {

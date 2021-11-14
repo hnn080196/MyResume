@@ -15,6 +15,12 @@ const useStyles = makeStyles((theme) => ({
             margin: theme.spacing(1),
         },
     },
+    iconStyle: {
+        backgroundColor: '#fff',
+        '&:hover': {
+            background: 'linear-gradient(to right, #a8edea 0%, #fed6e3 100%)',
+        },
+    },
 }));
 function About() {
     const classes = useStyles();
@@ -56,8 +62,8 @@ function About() {
                                     aria-label='twitter'
                                     style={{
                                         color: '#1d9bf0',
-                                        backgroundColor: '#fff',
                                     }}
+                                    classes={{ root: classes.iconStyle }}
                                 >
                                     <TwitterIcon />
                                 </IconButton>
@@ -65,29 +71,29 @@ function About() {
                                     aria-label='facebook'
                                     style={{
                                         color: '#01579B',
-                                        backgroundColor: '#fff',
                                     }}
                                     component='a'
                                     href='https://www.facebook.com/profile.php?id=100009215581445'
                                     target='_blank'
+                                    classes={{ root: classes.iconStyle }}
                                 >
                                     <FacebookIcon />
                                 </IconButton>
                                 <IconButton
                                     style={{
                                         color: '#E91E63',
-                                        backgroundColor: '#fff',
                                     }}
                                     aria-label='instagram'
+                                    classes={{ root: classes.iconStyle }}
                                 >
                                     <InstagramIcon />
                                 </IconButton>
                                 <IconButton
                                     style={{
                                         color: '#000',
-                                        backgroundColor: '#fff',
                                     }}
                                     aria-label='github'
+                                    classes={{ root: classes.iconStyle }}
                                 >
                                     <GitHubIcon />
                                 </IconButton>
@@ -95,8 +101,8 @@ function About() {
                                     aria-label='linkedin'
                                     style={{
                                         color: '#01579B',
-                                        backgroundColor: '#fff',
                                     }}
+                                    classes={{ root: classes.iconStyle }}
                                 >
                                     <LinkedInIcon />
                                 </IconButton>
@@ -108,6 +114,9 @@ function About() {
                                     variant='contained'
                                     color='secondary'
                                     startIcon={<CloudDownloadIcon />}
+                                    component='a'
+                                    href='https://drive.google.com/file/d/12GmRMNGPX7vpsN2iw6k7yxrSkEJnLcoG/view?usp=sharing'
+                                    target='_blank'
                                 >
                                     See My Resume.
                                 </Button>
