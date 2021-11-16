@@ -119,7 +119,6 @@ const cardData = [
         chipData: backendData,
         description: `CRUD User, Movie, Cinema, Theater, Seat, Showtime, Ticket `,
         bgcolor: '#B39DDB',
-        
         github: 'https://github.com/hnn080196/nodejs-booking-movie-API',
     },
     {
@@ -128,6 +127,7 @@ const cardData = [
         chipData: chatappData,
         description: `Realtime Chat App`,
         bgcolor: '#F8BBD0',
+        github: 'https://github.com/hnn080196/Chatapp-basic',
     },
 ];
 function Project() {
